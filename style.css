@@ -8,8 +8,69 @@ html {
   font-size: 62.5%;
 }
 
-.container {
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.header {
+  padding: 0 0 4rem 14rem;
+  height: 100vh;
+  position: relative;
+}
+.header .menu {
+  padding: 4rem 14rem;
   display: flex;
+  justify-content: space-between;
+  gap: 4rem;
+  font-size: 1.8rem;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+.header .menu h2 {
+  text-shadow: 0.8px 5px 2.4px rgb(181, 171, 171);
+}
+.header .menu ul {
+  display: flex;
+  gap: 4rem;
+}
+.header .menu ul li {
+  list-style: none;
+}
+.header .menu .new {
+  display: flex;
+  gap: 4rem;
+}
+.header .menu .text {
+  display: flex;
+  gap: 3rem;
   align-items: center;
-  justify-content: center;
+}
+.header .menu .text img {
+  width: 0.7rem;
+  height: 0.7rem;
+}
+.header .parents {
+  display: flex;
+}
+.header-left {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 12rem 0;
+}
+.header-left .center {
+  display: flex;
+  flex-direction: column;
+}
+.header-left .center h1 {
+  font-size: 6.6rem;
+  max-width: 60rem;
+}
+.header-right {
+  display: flex;
+  background: url("./assets/foto 1.png") no-repeat center/cover;
+  width: 50%;
+  height: 100vh;
 }/*# sourceMappingURL=style.css.map */
